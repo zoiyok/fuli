@@ -11,11 +11,18 @@
     *{
         margin: 0;
     }
+    body{
+        opacity: 0.5;
+    }
 </style>
 
 <script>
     function a(){
         window.location.href="scan.html";
+    }
+    window.onload = function(){
+        document.getElementsByTagName('body')[0].style.opacity = 1;
+        document.getElementsByTagName('body')[0].style.transition = "opacity 0.5s";
     }
 </script>
 
