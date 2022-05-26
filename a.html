@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iconfont.css">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        background-color: #f5f5f5;
+    }
+    *{
+        margin: 0;
+    }
+    .top-img{
+        width: 100%;
+    }
+    .search{
+        width: 90%;
+        height: 40px;
+        background-color: rgba(252, 252, 252, 0.767);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto;
+        margin-top: 80px;
+        border-radius: 100px;
+    }
+    .search-btn{
+        width: 50px;
+        height: 28px;
+        background-color: rgb(60,152,251);
+        border-radius: 100px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto;
+        margin-right: 10px;
+        text-align: center;
+        line-height: 28px;
+        color: #fff;
+        font-size: x-small;
+    }
+    .newst, .hotest{
+        font-size: large;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto;
+        text-align: center;
+        margin-top: 155px;
+    }
+    .newst{
+        margin-right: 100px;
+    }
+    .hotest{
+        margin-left: 100px;
+        color: #14141452;
+    }
+    .plus{
+        width: 40px;
+        height: 40px;
+        background-color: rgb(160,206,193);
+        border-radius: 100px;
+        text-align: center;
+        line-height: 40px;
+        font-size: larger;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto;
+        margin-top: 150px;
+    }
+    .mid{
+        height: 50px;
+        background-color: rgba(187, 255, 170, 0);
+    }
+    .list1{
+        width: 170px;
+        height: 350px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        padding-left: 5px;
+        color: #797979;
+        float: left;
+        padding-right: 5px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .list2{
+        width: 170px;
+        height: 230px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        padding-left: 5px;
+        color: #797979;
+        padding-right: 5px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    .img-list{
+        width: 170px;
+        margin-top: 5px;
+        padding-bottom: 10px;
+    }
+    .xin-img{
+        width: 20px;
+        float: right;
+    }
+    .xin{
+        text-align: center;
+        padding-left: 110px;
+        color: rgb(163, 163, 163);
+    }
+    .bottom{
+        height: 50px;
+        width: 100%;
+        background-color: rgb(116,183,165);
+        position: fixed;
+        bottom: 0;
+    }
+    .info{
+        position: absolute;
+        color: rgba(255, 255, 255, 0.555);
+        background-color: rgba(0, 255, 255, 0);
+        margin-top: 30px;
+        text-align: center;
+        font-size: smaller;
+        margin-left: 45px;
+    }
+    .a{
+        float: left;
+        font-size: x-large;
+        margin-left: 45px;
+        color: #ffffff91;
+        margin-top: 5px;
+    }
+</style>
+
+<script>
+    function add(){
+        window.location.href = "b.html";
+    }
+    function buy(){
+        window.location.href = "https://shop.ai-future-explore.cn";
+    }
+    function tech(){
+        window.location.href = "tech.html";
+    }
+</script>
+
+<body>
+    <div class="top">
+        <div class="search">
+            <div class="search-btn">搜 索</div>
+        </div>
+        <img class="top-img" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/4KNGA2/69/11/8a/69118aa04b3b4f78a6540e92dd617ba8/images/%E9%A6%96%E9%A1%B5/u3.png" alt="">
+    </div>
+    <div class="mid" onclick="add()">
+        <div class="newst">最新</div>
+        <div class="plus2" onclick="add()">
+            <div class="plus" onclick="add()">+</div>
+        </div>
+        <div class="hotest">最热</div>
+    </div>
+    <div class="list">
+        <div class="list1">
+            <img class="img-list" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/4KNGA2/69/11/8a/69118aa04b3b4f78a6540e92dd617ba8/images/%E8%AE%A8%E8%AE%BA%E5%8C%BA/u99.png" alt="">
+            种小番茄的第38天，第一次种植物，每一天都会记录成长。
+            <div class="xin">
+                322
+                <img class="xin-img" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/4KNGA2/69/11/8a/69118aa04b3b4f78a6540e92dd617ba8/images/%E8%AE%A8%E8%AE%BA%E5%8C%BA/u94.png" alt="">
+            </div>
+        </div>
+
+        <div class="list2">
+            <img class="img-list" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/4KNGA2/69/11/8a/69118aa04b3b4f78a6540e92dd617ba8/images/%E8%AE%A8%E8%AE%BA%E5%8C%BA/u89.png" alt="">
+            我终于吃上自己种的香菜了！
+            <div class="xin">
+                28
+                <img class="xin-img" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/4KNGA2/69/11/8a/69118aa04b3b4f78a6540e92dd617ba8/images/%E8%AE%A8%E8%AE%BA%E5%8C%BA/u94.png" alt="">
+            </div>
+        </div>
+
+        <div class="list2" style="height: 160px;">
+            <h3 style="text-align: center; padding-top: 15px; padding-bottom: 20px;">求助帖|草莓种植</h3>
+            我刚种植好的草莓出现了边缘焦枯的情况，请问我该怎么处理？
+            <div class="xin">
+                17
+                <img class="xin-img" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/4KNGA2/69/11/8a/69118aa04b3b4f78a6540e92dd617ba8/images/%E8%AE%A8%E8%AE%BA%E5%8C%BA/u94.png" alt="">
+            </div>
+        </div>
+        
+        <div class="list2" style="height: 230px;">
+            <img class="img-list" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/4KNGA2/60/80/10/608010f887a74314bd4402183ece571e/images/%E8%AE%A8%E8%AE%BA%E5%8C%BA/u96.png" alt="">
+            分享自己租的田地。
+            <div class="xin">
+                124
+                <img class="xin-img" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/4KNGA2/69/11/8a/69118aa04b3b4f78a6540e92dd617ba8/images/%E8%AE%A8%E8%AE%BA%E5%8C%BA/u94.png" alt="">
+            </div>
+        </div>
+        
+        <div class="list2" style="height: 300px; margin-top: -170px;">
+            <img class="img-list" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/4KNGA2/60/80/10/608010f887a74314bd4402183ece571e/images/%E8%AE%A8%E8%AE%BA%E5%8C%BA/u73.png" alt="">
+            分享自己租的田地。
+            <div class="xin">
+                124
+                <img class="xin-img" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/4KNGA2/69/11/8a/69118aa04b3b4f78a6540e92dd617ba8/images/%E8%AE%A8%E8%AE%BA%E5%8C%BA/u94.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="iconfont icon-gouwuchekong a" onclick="buy()"></div>
+        <div class="iconfont icon-taolun a" style="color: white;"></div>
+        <div class="iconfont icon-31shouye a"></div>
+        <div class="iconfont icon-keji a" onclick="tech()"></div>
+        <div class="iconfont icon-wode a"></div>
+        <div class="info" onclick="buy()">购物</div>
+        <div class="info" style="margin-left: 113px;color: white;font-weight: bolder;">讨论</div>
+        <div class="info" style="margin-left: 182px;">首页</div>
+        <div class="info" style="margin-left: 250px;" onclick="tech()">科技</div>
+        <div class="info" style="margin-left: 320px;">我的</div>
+    </div>
+</body>
+</html>
