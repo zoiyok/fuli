@@ -12,6 +12,7 @@
 <style>
     body{
         padding: 10px;
+        opacity: 0.5;
     }
     .back{
         width: 100%;
@@ -77,6 +78,10 @@
     }
     function fabu(){
         window.location.href = "share.html";
+    }
+    window.onload = function(){
+        document.getElementsByTagName('body')[0].style.opacity = 1;
+        document.getElementsByTagName('body')[0].style.transition = "opacity 0.5s";
     }
 </script>
 
