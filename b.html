@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="iconfont.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css"> 
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        padding: 10px;
+    }
+    .back{
+        width: 100%;
+        height: 50px;
+    }
+    .title, .content{
+        width: 100%;
+        height: 40px;
+        border: none;
+        padding-left: 10px;
+    }
+    .line{
+        width: 100%;
+        height: 1px;
+        background-color: #ccc;
+    }
+    .btn{
+        float: left;
+        width: 70px;
+        background-color: rgba(211, 211, 211, 0.253);
+        height: 30px;
+        margin-left: 10px;
+        text-align: center;
+        border-radius: 50px;
+        color: rgba(104, 104, 104, 0.637);
+        margin-top: 20px;
+    }
+    .icon{
+        font-size: small;
+        margin-top: 10px;
+        padding-left: 15px;
+        color: rgb(179, 179, 179);
+    }
+    .send{
+        float: right;
+        background-color: rgb(86, 188, 247);
+        height: 30px;
+        width: 65px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: -35px;
+        color: #fff;
+    }
+</style>
+
+<script>
+    function color1(){
+        document.getElementById("btn1").style.backgroundColor = "rgba(116,183,165, 0.69)";
+        document.getElementById("btn1").style.color = "rgba(255,255,255,0.9)";
+    }
+    function color2(){
+        document.getElementById("btn2").style.backgroundColor = "rgba(116,183,165, 0.69)";
+        document.getElementById("btn2").style.color = "rgba(255,255,255,0.9)";
+    }
+    function color3(){
+        document.getElementById("btn3").style.backgroundColor = "rgba(116,183,165, 0.69)";
+        document.getElementById("btn3").style.color = "rgba(255,255,255,0.9)";
+    }
+    function color4(){
+        document.getElementById("btn4").style.backgroundColor = "rgba(116,183,165, 0.69)";
+        document.getElementById("btn4").style.color = "rgba(255,255,255,0.9)";
+    }
+    function fabu(){
+        window.location.href = "share.html";
+    }
+</script>
+
+<body>
+    <div class="iconfont icon-31fanhui1" style="margin-bottom: 10px; margin-top: 10px;">返回</div>
+    <div class="send" onclick="fabu()">发 布</div>
+    <div>
+        <input type="text" class="title" placeholder="发帖标题" style="border-radius: 10px;">
+    </div>
+    <div class="line"></div>
+    <div>
+        <input type="text"  class="content" placeholder="发帖内容" style="border-radius: 10px; margin-top: 10px;height: 100px;">
+    </div>
+    <div class="btn" id="btn1" onclick="color1()">求助帖</div>
+    <div class="btn" id="btn2" onclick="color2()">记录帖</div>
+    <div class="btn" id="btn3" onclick="color3()">教学帖</div>
+    <div class="btn" id="btn4" onclick="color4()">科普帖</div>
+
+    <div class="iconfont icon-tupiantianjia icon" style="margin-top: 70px;"> 添加图片</div>
+    <div class="iconfont icon-weizhi-xianxing icon"> 添加位置</div>
+</body>
+</html>

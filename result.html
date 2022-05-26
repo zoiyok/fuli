@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+    }
+    body{
+        background-color: rgb(39, 39, 39);
+    }
+    img{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto;
+        margin-top: 120px;
+    }
+    .a{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.699);
+        margin-top: 10px;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    .fenxi{
+        color: rgb(219, 219, 219);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto;
+        margin-top: 520px;
+        width: 300px;
+    }
+    .yes{
+        width: 120px;
+        height: 40px;
+        background-color: rgba(0, 162, 255, 0.795);
+        line-height: 40px;
+        text-align: center;
+        border-radius: 220px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto;
+        margin-top: 750px;
+        color: white;
+        font-weight: bold;
+    }
+</style>
+
+<script>
+    setInterval(function(){
+        document.getElementById("line").style.marginTop = "500px";
+    },800);
+    setInterval(function(){
+        document.getElementById("line").style.marginTop = "100px";
+    },1600);
+    setInterval(function(){
+        document.getElementById("line").style.display = "none";
+        document.getElementById("toast").style.display = "block";
+    },3000);
+
+    function back(){
+        window.location.href = "tech.html";
+    }
+</script>
+
+<body>
+    <div class="a">结果分析</div>
+    <img src="chong.jpg" style="width: 90%; border-radius: 15px;">
+    <div class="fenxi">
+        结果分析结果分析结果分析结果分析结果分析结果分析
+    </div>
+    <div class="yes" onclick="back()">确 认</div>
+</body>
+</html>
