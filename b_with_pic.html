@@ -57,6 +57,11 @@
         margin-top: -35px;
         color: #fff;
     }
+    .pic{
+        text-align: left;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
 </style>
 
 <script>
@@ -90,7 +95,7 @@
 
 <body>
     <div class="iconfont icon-31fanhui1" style="margin-bottom: 10px; margin-top: 10px;">返回</div>
-    <div class="send">发 布</div>
+    <div class="send" onclick="fabu()">发 布</div>
     <div>
         <input type="text" class="title" placeholder="发帖标题" style="border-radius: 10px;">
     </div>
@@ -102,8 +107,10 @@
     <div class="btn" id="btn2" onclick="color2()">记录帖</div>
     <div class="btn" id="btn3" onclick="color3()">教学帖</div>
     <div class="btn" id="btn4" onclick="color4()">科普帖</div>
-
-    <div class="iconfont icon-tupiantianjia icon" style="margin-top: 90px; font-size: large;" onclick="upload()"> 添加图片</div>
+    <br><br>
+    <div class="pic">
+        <img src="fatie.jpg" style="width: 50px; border-radius: 10px;">
+    </div>
     <div class="iconfont icon-weizhi-xianxing icon" style="margin-top: 30px; font-size: large;"> 添加位置</div>
 </body>
 </html>
